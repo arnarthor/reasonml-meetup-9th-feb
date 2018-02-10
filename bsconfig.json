@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": [
+    "reason-react",
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "reason": {
+    "react-jsx": 2
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "suffix": ".bs.js",
+  "refmt": 3
+}
